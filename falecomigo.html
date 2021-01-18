@@ -1,35 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fale comigo</title>
-</head>
-<body>
-    
-    <h4>Minhas informações para contato</h4>
-    <ul>
-        <a href="https://www.linkedin.com/in/pedroivobu/">LinkedIn</a>
-    </ul>
-    <ul>
-        <a href="pedro.sartorio@engenharia.fsa.br">E-mail</a>
-    </ul>
-    <ul>
-        <a href="GitHub: https://github.com/pebueno">GitHub</a>
-    </ul>
-    <ul>
-        <a href="https://stackoverflow.com/users/10693813/pebueno">StackOverflow</a>
-    </ul>
+<html lang="pt-br">
 
-<form action="mailto:pedro.sartorio@engenharia.fsa.br" method="post" enctype="text/plain">
-<label for="">Seu nome:</label>
-<input type="text" name="seuNome" value="" required><br>
-<label for="">Seu Email:</label>
-<input type="email" name="seuEmail" value="" required><br>
-<label for="">Sua mensagem:</label><br>
-<textarea name="suaMensagem" id="" cols="30" rows="10"></textarea><br>
-<input type="submit" name="">
-</form>
+<head>
+    <meta charset="UTF-6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo de Desenvolvedor MEAN stack">
+    <meta name="keywords" content="HTML, CSS, JavaScript, XML, CV, Full stack, Mean stack">
+    <meta name="author" content="Pedro Ivo Bueno Sartório">
+    <title>Fale comigo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="css/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="top-container">
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+
+            <a href="habilidades.html">Habilidades</a>
+
+        </div>
+    </div>
+
+
+    <div class="mid-container">
+        <div class="skill-row">
+            <h1>Minhas informações para contato</h1>
+
+        <table cellspacing="40">
+            <tr>
+                <td>
+                        <p>São Bernardo do Campo, São Paulo</p>
+                        <p>pedro.sartorio@engenharia.fsa.br</p>
+                </td>
+                <td>
+                    <div class="skill-row">
+                        <form action="mailto:pedro.sartorio@engenharia.fsa.br" method="post" enctype="text/plain">
+                            <label for="">Seu nome:</label><br>
+                            <input type="text" name="seuNome" value="" placeholder="Digite o nome" required><br>
+                            <label for="">Seu Email:</label><br>
+                            <input type="email" name="seuEmail" value="" placeholder="Digite seu e-mail" required><br>
+                            <label for="">Sua mensagem:</label><br>
+                            <textarea name="suaMensagem" id="" cols="30" rows="10" required></textarea><br>
+                            <button class="btn_enviar" type="submit" name="enviar">Enviar mensagem</button>
+            
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+ 
+    </div>
+
+
+
+    <div class="bot-container">
+        <h1 id="contato">Contato</h1>
+
+
+        <table class="tabela-footer">
+            <tr>
+                <td>
+            <tr>
+                <td>
+                    <a href="https://github.com/pebueno/"> <img src="img/icons/002-github.png" alt=""> GitHub</a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/pedroivobu/"> <img src="img/icons/003-linkedin.png" alt="">
+                        LinkedIn</a>
+                </td>
+            <tr>
+                <td>
+                    <a href="https://stackoverflow.com/users/10693813/pebueno/"> <img
+                            src="img/icons/001-stack-overflow.png" alt=""> Stack Overflow</a>
+                </td>
+            </tr>
+            </tr>
+        </table>
+        <hr class="divisoria-footer">
+        <p id="copyright">© 2021 Pedro Ivo Bueno Sartório.</p>
+    </div>
 
 </body>
+
 </html>
