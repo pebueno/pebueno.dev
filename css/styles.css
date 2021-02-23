@@ -1,0 +1,478 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  padding: 1% 0px;
+}
+p {
+  margin-bottom: 0px;
+}
+
+/* .test {
+  position: relative;
+  height: 300px;
+} */
+/* p {
+  color: #8f8f8f;
+} */
+
+/* 
+#f0f5f9
+#c9d6df
+#52616b
+#1e2022
+ */
+
+/* Bootstrap theme
+ $blue
+#007bff
+$indigo
+#6610f2
+$purple
+#6f42c1
+$pink
+#e83e8c
+$red
+#dc3545
+$orange
+#fd7e14
+$yellow
+#ffc107
+$green
+#28a745
+$teal
+#20c997
+$cyan
+#17a2b8 
+*/
+
+/* Container  */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections  */
+
+.colored-section {
+  background-color: #52616b;
+  color: #f0f5f9;
+
+}
+
+.white-section {
+  background-color: #f0f5f9;
+
+}
+
+
+/* Navigation Bar  */
+
+.navbar {
+  /* padding: 0 0 4.5rem; */
+  padding: 0px 0px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  padding-left: 150px;
+}
+
+.nav-item {
+  padding: 0px 30px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* orcamento Image  */
+
+.orcamento {
+  padding-bottom: 20px;
+}
+
+.orcamento p{
+  color: #000000;
+}
+.orcamento-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#orcamento .container-fluid {
+  padding: 0% 15% 7%;
+  text-align: left;
+  background-image: url("/img/header.jpg");
+}
+
+#orcamento h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 4.2rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 50px;
+}
+
+#banner {
+  position: absolute;
+  border-radius: 0;
+  max-width: 100%;
+
+}
+
+
+#orcamento div .contact {
+  padding: 50px 160px 0px 160px;
+}
+
+.contact h5 {
+  color: #52616b;
+  font-size: 30px;
+}
+
+.contact a {
+  padding-left: 35px;
+  color: #52616b;
+}
+
+.btn-success {
+  background-color: #1e2022;
+}
+
+
+
+/* sobre Section */
+
+.sobre {
+  padding-left: 42%;
+  padding-bottom: 20px;
+}
+
+#sobre {
+  position: relative;
+  text-align: left;
+}
+
+#sobre h3 {
+  text-align: center;
+  font-weight: 900;
+  padding-top: 60px;
+  color: #52616b;
+
+}
+
+#sobre button {
+  background-color: #52616b;
+}
+
+#sobre button:hover {
+  background-color: #1e2022;
+}
+
+.sobre-box {
+  padding: 20px 50px;
+}
+
+.sobre-box i {
+  color: #005691;
+  margin-bottom: 1rem;
+}
+
+.sobre-box i:hover {
+  color: #004a7c;
+}
+
+.testButton {
+  text-align: center;
+}
+
+.card-img-top {
+  position: unset;
+}
+
+.card-img {
+  position: relative;
+}
+
+/* servicos Section  */
+
+#background {
+  position: absolute;
+  width: 100%;
+  border-radius: 0%;
+}
+
+#servicos {
+  background-color: #c9d6df;
+  background-image: url("/img/colored-section.jpg");
+
+}
+
+
+#servicos .fileira {
+  padding: 30px 100px;
+
+}
+
+#servicos .card-body {
+text-align: left;
+  background-color: #c9d6df;
+  color: black;
+  padding:0px;
+}
+
+#servicos i {
+  color: #52616b;
+}
+
+#servicos li {
+  background-color: #c9d6df;
+}
+#servicos h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#servicos .btn-link {
+  color: #005691;
+}
+
+
+/* Princing Section  */
+
+/* #portfolio {
+  padding: 100px;
+}
+
+#portfolio h2, h3{
+  font-weight: 900;
+}
+
+.portfolio-column {
+  padding: 3% 2%;
+} */
+
+/* Call to Action  */
+
+
+
+#portfolio h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+
+
+
+/*
+#footer .copyright {
+   padding: 100px 25% 20px 25%; 
+   padding: 90px 20% 20px 50%; 
+}
+*/
+
+/* #footer.container-fluid {
+  padding: 1% 15%;
+} */
+
+#footer i {
+  /* margin: 20px 10px; */
+  color: #c9d6df;
+}
+
+#footer .heading {
+  text-align: left;
+}
+
+#footer .heading a{
+  font-size: 15px;
+  padding: 0px 20px 40px 0px;
+}
+
+#footer ul {
+  text-align: left;
+  list-style: none;
+  line-height: 30px;
+  height: 160px;
+}
+
+#footer i:hover {
+  color: #1e2022;
+}
+
+#footer h2 {
+  padding-top: 10px;
+}
+
+
+#footer p {
+  margin-top: revert;
+}
+
+@media (min-width: 1028px) {
+
+ #servicos {
+  max-height: 1200px;
+ }
+}
+
+
+#portfolio {
+  background-color: #c9d6df;
+}
+
+.chat i{
+  color: #28a745;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat i:hover {
+  color: #1f8035;
+}
+/* Carrousel de Imagens */
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  padding: 44px 0;
+  margin: 0 auto;
+  list-style-type: none;
+  width: 980px;
+}
+
+.container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 20px 50px 20px 0px;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+}
+
+.container li:nth-child(3) {
+  flex:1;
+}
+
+
+
+.carousel {
+  position: relative;
+  height: 420px;
+}
+
+img {
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+}
+
+.front img {
+  width: 300px;
+  height: 400px;
+  z-index: 98;
+}
+
+.left img {
+  width: 200px;
+  height: 300px;
+  z-index: 1;
+  opacity: 0.50;
+  transform: translate(-133px,45px);
+}
+
+.right img {
+  width: 200px;
+  height: 300px;
+  z-index: 0;
+  opacity: 0.50;
+  transform: translate(133px,45px);
+}
+
+.fas:hover {
+  transition: 0.5s;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: auto 780px auto;
+}
+
+.main_container a.fas {
+  padding: 186px 10px 186px 10px;
+  margin: 0;
+  color: #52616b;
+  opacity: 0.5;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+
+.nav_slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 175px;
+}
+
+.dots {
+  border-color: #52616b;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  opacity: 0.50;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.dots:hover {
+  opacity: 0.75;
+}
+
+.highlight {
+  background-color: #52616b;
+  border-color: #52616b;
+  opacity: 1.0;
+  color: #1e2022;
+}
+
+/****************************************** TESTEMUNHOS PARTE  */
