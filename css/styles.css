@@ -306,6 +306,13 @@ text-align: left;
   /* margin: 20px 10px; */
   color: #c9d6df;
 }
+#sites a{
+  color: #c9d6df;
+  font-size: 9px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+padding: 0px;
+}
 
 #footer .heading {
   text-align: left;
